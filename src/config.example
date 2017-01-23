@@ -1,0 +1,20 @@
+//rename config.example to config.h and add values
+
+const char *ssid = "your_ssid";
+const char *password = "Wifi_password";
+
+//emoncms address
+const char *host = "xxx.xxx.xxx.xxx";
+
+//emoncms api key
+const char *apikey = "";
+const int httpPort = 80;
+
+//emoncms node number
+const int node = 1;
+
+//maximum awake time, after this interval we are going to sleep no matter if we send data or not
+int awakeSec = 20;
+
+//wake up every sleepSec and do a measurement and send to emoncms
+int sleepSec = 1800;

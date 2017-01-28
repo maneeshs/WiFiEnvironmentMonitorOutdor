@@ -27,5 +27,8 @@ Power consuption in deepSleep 0.20mA (on 3 AAA batteries will run for ~3 months)
 - RST - D0 - used to wake the ESP from deepSleep
 - 5V - To the Power supply
 
+##Schematics
+![alt tag](https://raw.githubusercontent.com/mciuraru/WiFiEnvironmentMonitorOutdor/master/Schematics/WiFiEnvironmentMonitorOutdor_Sensors_bb.png)
+
 ###Pictures with the finished product
 http://imgur.com/a/Zx4D4
